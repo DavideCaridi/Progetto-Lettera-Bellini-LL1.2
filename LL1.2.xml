@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vincenzo Bellini a Giuditta Turina, in Venezia, 20 gennaio 1830</title>
+				<author ref="#VB">Vincenzo Bellini</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name xml:id="GS">Graziella Seminara</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>Digital Edition <date when="2020-06">June 2020</date></edition>
+				<respStmt>
+					<resp>Digital edition project coordineted by</resp>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="DS">Daria Spampinato</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding by</resp>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="EC">Erica Capizzi</name>
+					<name ref="#DS">Daria Spampinato</name>
+					<name xml:id="DC">Davide Caridi</name>
+					<name xml:id="LS">Lorenzo Simoni</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+				</availability>
+                <date when="2020">2020</date>
+            </publicationStmt>
+			<sourceDesc>
+				<bibl source="#Seminara2017" resp="#GS" ana="111">
+					<citedRange unit="page" from="206" to="207">206-207</citedRange>
+				</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country>Italy</country>
+						<settlement>Catania</settlement>
+						<repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436" n="I-CATm">Museo Belliniano Catania</repository>
+						<idno type="inventory">LL1.2</idno>
+						<altIdentifier>
+							<idno type="collocation">in esposizione Casa Natale, sala B, vetrina 3, ripiano 1, I</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
+							<title type="uniform" xml:lang="it"><persName ref="#VB" role="composer">Vincenzo Bellini</persName> a <persName ref="#GCT">Giuditta Turina</persName>, in <placeName ref="#VE">Venezia</placeName>, <date when="1830-01-20" cert="high" resp="#GS">20 gennaio 1830</date></title>
+							<textLang mainLang="it" otherLangs="fr">italiano di inizio Ottocento con indirizzo in francese</textLang>
+							<note>Il mese di redazione della lettera è stato attribuito da <persName ref="#GS">Seminara</persName> e non è presente nel documento originale.</note>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material>Carta sottile.</material>
+									<watermark>
+										<figure>
+											<head>Filigrana di forma circolare</head>
+											<graphic url="watermark.jpg" width="624px" height="583px"/>
+										</figure>
+									</watermark>
+									<stamp>È presente un timbro postale di partenza al centro del fronte-verso.</stamp>
+									<p>Lettera in buone condizioni fisiche, composta da un solo folio, piegato in più parti e con testo sia sul fronte che sul retro. Carta sottile con filigrana circolare, colore beige e inchiostro nero. Sul fronte-verso, nella parte centrale sono presenti l'indirizzo e il timbro di partenza, sul lato sinistro uno strappo dovuto all'apertura della lettera e sul lato destro un numero di catalogazione scritto ribaltato rispetto all'indirizzo.</p>
+								</support>
+								<extent>
+									<measure type="folio">1</measure>
+									<dimensions unit="mm">
+										<height>187</height>
+										<width>250</width>
+									</dimensions>
+								</extent>
+								<foliation>Il fronte è piegato in recto (a dx) e verso (a sx), con l'indirizzo nel verso. Ciascuno presenta due piegature simmetriche sui margini inferiore e superiore e due asimmetriche sui margini destro e sinistro, quest'ultimo piegato più stretto. In questo modo è divisa in nove sezioni disomogenee. Così il folio stesso funge anche da busta.</foliation>
+								<condition>
+									<p>Lettera in buone condizioni fisiche.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="4">
+							<handNote>
+								<p>Scrittura di Bellini a mano libera leggibile.</p>
+							</handNote>
+							<handNote xml:id="h1">
+								<p>Segno simile alle lettere VI di significato e origine incerti, ricorrente nell'epistolario di Bellini.</p>
+							</handNote>
+							<handNote xml:id="h2">
+								<p>Una annotazione sul fronte-verso, probabilmente dovuta ad un catalogatore, che presenta il numero 20.</p>
+							</handNote>
+							<handNote xml:id="h3">
+								<p>Una annotazione a matita sul fronte-verso che presenta un simbolo simile alla lettera g minuscola.</p>
+							</handNote>
+						</handDesc>
+						<sealDesc>
+							<seal facs="#LL1.2_hotspot_1fv_05" type="wax">
+								<p>Il fronte nella parte centrale presenta un sigillo in ceralacca rossa parzialmente conservato.</p>
+							</seal>
+						</sealDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<note>All'interno del carteggio belliniano (LL), la segnatura LL1.2 identifica la seconda missiva in ordine cronologico del primo sottogruppo, che corrisponde alle lettere scritte da Vincenzo Bellini.</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+				<listPerson>
+					<head>Lista persone</head>
+					<person xml:id="VB" sameAs="http://viaf.org/viaf/39560983">
+						<persName role="composer">
+							<ref target="https://data.rism.info/id/rismauthorities/pe11648 http://www.treccani.it/enciclopedia/vincenzo-bellini_(Dizionario-Biografico)"/>
+							<forename>Vincenzo</forename>
+							<forename>Salvatore</forename>
+							<forename>Carmelo</forename>
+							<forename>Francesco </forename>
+							<surname>Bellini</surname>
+							<addName type="alias">Il Cigno</addName>
+							<roleName type="honorific">Cavaliere della Legione d'onore</roleName>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1801-11-03">3 novembre 1801</date>
+							<placeName ref="#CT">
+								<settlement type="municipality">Catania</settlement>
+								<settlement type="provincia" key="CT">Catania</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</birth>
+						<death>
+							<date when="1835-09-23">23 settembre 1835</date>
+							<placeName ref="#Put">
+								<settlement type="municipality">Puteaux</settlement>
+								<settlement type="department" key="Paris">Paris</settlement>
+								<country key="FR">France</country>
+							</placeName>
+						</death>
+						<note/>
+					</person>
+					<person xml:id="GCT" sameAs="http://viaf.org/viaf/3324410">
+						<persName>
+							<ref target="https://data.rism.info/id/rismauthorities/pe40216349"/>
+							<forename>Giuditta</forename>
+							<surname>Cantù</surname>
+							<surname>Turina</surname>
+						</persName>
+						<sex>F</sex>
+						<birth>
+							<date when="1803">1803</date>
+							<placeName ref="#MI">
+								<settlement type="municipality">Milano</settlement>
+								<settlement type="provincia" key="MI">Milano</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</birth>
+						<death>
+							<date when="1871">1871</date>
+							<placeName ref="#MI">
+								<settlement type="municipality">Milano</settlement>
+								<settlement type="provincia" key="MI">Milano</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</death>
+						<note source="#Seminara2017" resp="#GS" ana="260">
+							<bibl>
+								<citedRange unit="page" from="165" to="165">165</citedRange>
+							</bibl>
+							<p>Giuditta Cantù (Milano, 1803-1871) era figlia di un agiato commerciante e della nobile <persName>Carolina Sopransi</persName>. Nel 1819 aveva sposato il facoltoso imprenditore <persName ref="#FT">Ferdinando Turina</persName> (Casalbuttano, 1795-Milano, 1869), dal quale non aveva avuto figli.</p>
+						</note>
+						<note resp="#GS">
+							<p>Giuditta Cantù Turina (Milano, 1803 - 1871). Figlia di <persName>Giuseppe Cantù</persName>, un agiato commerciante, e della nobile <persName>Carolina Sopransi</persName>, nel 1819 sposò <persName ref="#FT">Ferdinando Turina</persName>, dal quale non ebbe figli. Conobbe <persName ref="#VB">Bellini</persName> nell'aprile del 1828, in occasione dell'inaugurazione del <orgName type="theatre">Teatro Carlo Felice</orgName> di <placeName>Genova</placeName> con l'<term subtype="music-term" ref="#opera">opera</term> <rs type="work" ref="#Bianca_e_Gernando">Bianca e Fernando</rs>, e iniziò con lui una relazione sentimentale che sarebbe durata fino alla partenza del musicista per <placeName ref="#London">Londra</placeName> nell'aprile del 1833. A lei <persName ref="#VB">Bellini</persName> dedicò la <quote rend="double angle quotation marks">Gran <term subtype="music-term" ref="#scena">Scena</term> ed <term subtype="music-term" ref="#aria">aria</term> finale “Deh non ferir, ah, sentimi”</quote> dell'<term subtype="music-term" ref="#opera">opera</term> <rs type="work" ref="#Bianca_e_Gernando">Bianca e Fernando</rs>.</p>
+						</note>
+					</person>
+					<person xml:id="FFlo" sameAs="http://viaf.org/viaf/44522632">
+						<persName role="composer">
+							<ref target="https://data.rism.info/id/rismauthorities/pe174832 http://www.treccani.it/enciclopedia/francesco-florimo_(Dizionario-Biografico)"/>
+							<forename>Francesco</forename>
+							<surname>Florimo</surname>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1800-10-12">12 ottobre 1800</date>
+							<placeName>
+								<settlement type="municipality">San Giorgio Morgeto</settlement>
+								<settlement type="provincia" key="RC">Reggio Calabria</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</birth>
+						<death>
+							<date when="1888-12-18">18 dicembre 1888</date>
+							<placeName ref="#NA">
+								<settlement type="municipality">Napoli</settlement>
+								<settlement type="provincia" key="NA">Napoli</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</death>
+						<note source="#Seminara2017" resp="#GS" ana="33">
+							<bibl>
+								<citedRange unit="page" from="75" to="75">75</citedRange>
+							</bibl>
+							<p>Francesco Florimo (San Giorgio Morgeto, 1800 - Napoli, 1888) fu condiscepolo di <persName ref="#VB">Vincenzo Bellini</persName> al Collegio di San Sebastiano e destinatario privilegiato delle missive del compositore di <placeName ref="#CT">Catania</placeName>. Nel 1826 subentrò a <persName>Giuseppe Sigismondo</persName> nella direzione della biblioteca del Conservatorio di <placeName ref="#NA">Napoli</placeName>, trasferito proprio in quell'anno nella nuova sede di San Pietro a Majella. Dopo la morte prematura di <persName ref="#VB">Bellini</persName>, decise di dedicare la propria vita alla memoria dell'amico: nel 1882 pubblicò la monografia <hi rend="italic">Bellini. Memorie e lettere</hi> (Firenze, Barbèra); nel 1878 coinvolse alcuni tra i massimi musicisti del tempo (Cajkovskij Hiller Liszt Rubinstein Cesi Martucci Rendano Sgambati) per la realizzazione di un <term subtype="music-term">Album</term> per pianoforte dedicato a <persName ref="#VB">Bellini</persName>, che venne pubblicato a <placeName ref="#NA">Napoli</placeName> dalla <orgName type="publisher">Società Musicale Industriale</orgName> (e quindi a <placeName ref="#MI">Milano</placeName> nel 1884 dallo <orgName type="publisher" ref="#CasaRicordi">Stabilimento Musicale Ricordi</orgName>); nel 1886 inaugurò a <placeName ref="#NA">Napoli</placeName> un monumento a <persName ref="#VB">Bellini</persName>, realizzato dallo scultore <persName>Alfonso Balzico</persName> e finanziato con una pubblica sottoscrizione, alla quale aderirono numerose personalità italiane ed europee.</p>
+						</note>
+					</person>
+					<person xml:id="MGP" sameAs="http://viaf.org/viaf/36148120743694791995">
+						<persName>
+							<ref target="https://data.rism.info/id/rismauthorities/pe30069809"/>
+							<forename>Marianna</forename>
+							<surname>Gasparini</surname>
+							<surname>Pollini</surname>
+						</persName>
+						<sex>F</sex>
+						<birth>
+							<date when="1775">1775</date>
+							<placeName type="unknown"/>
+						</birth>
+						<death>
+							<date>unknown</date>
+							<placeName type="unknown"/>
+						</death>
+						<note source="#Seminara2017" resp="#GS" ana="67">
+							<bibl>
+								<citedRange unit="page" from="82" to="82">82</citedRange>
+							</bibl>
+							<p><gap reason="editorial"/>Marianna Gasparini, cantante dilettante<gap reason="editorial"/> che nel 1798 aveva sposato il compositore e didatta <persName ref="#FP">Francesco Pollini</persName> (Lubiana, 1762-Milano, 1846).<gap reason="editorial"/></p>
+						</note>
+					</person>
+					<person xml:id="FP" sameAs="http://viaf.org/viaf/22328380">
+						<persName role="composer">
+							<ref target="https://data.rism.info/id/rismauthorities/pe26730 https://it.wikipedia.org/wiki/Francesco_Pollini"/>
+							<forename>Francesco</forename>
+							<surname>Pollini</surname>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1762-03-26">26 marzo 1762</date>
+							<placeName>
+								<settlement type="municipality">Lubiana</settlement>
+								<settlement type="provincia">Lubiana</settlement>
+								<country key="SL">Slovenia</country>
+							</placeName>
+						</birth>
+						<death>
+							<date when="1846-09-17">17 settembre 1846</date>
+							<placeName ref="#MI">
+								<settlement type="municipality">Milano</settlement>
+								<settlement type="provincia" key="MI">Milano</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</death>
+						<note resp="#GS">
+							<p>Compositore e didatta, Francesco Pollini (Lubiana, 1762 - Milano, 1846)  aveva studiato con <persName>Mozart</persName> a <placeName>Vienna</placeName> e a <placeName ref="#NA">Napoli</placeName> con <persName>Zingarelli</persName> ed era autore di musica sacra e strumentale; aveva anche scritto un <hi rend="italic">Metodo pel clavicembalo</hi> (Milano, Ricordi, 1812) impiegato in quegli anni al Conservatorio di <placeName ref="#MI">Milano</placeName>, dove nel 1809 era stato chiamato a occupare la cattedra di pianoforte. Insieme alla moglie <persName ref="#MGP">Marianna Gasparini</persName>, che era cantante dilettante, Pollini accolse <persName ref="#VB">Bellini</persName> come un figlio quando il giovane musicista giunse a <placeName ref="#MI">Milano</placeName>. A lui <persName ref="#VB">Bellini</persName> dedicò la riduzione per canto e pianoforte della <rs type="work" ref="#Sonnambula">Sonnambula</rs>, edita da <orgName type="publisher" ref="#CasaRicordi">Ricordi</orgName> nel 1831; dedicate a <persName ref="#MGP">Marianna Pollini</persName>, sono invece le Sei <term subtype="music-term" ref="#aria">ariette</term> per camera, pubblicate da <orgName type="publisher" ref="#CasaRicordi">Ricordi</orgName> in quello stesso anno.</p>
+						</note>
+					</person>
+					<person xml:id="FR" sameAs="http://viaf.org/viaf/19683628">
+						<persName role="librettist">
+							<ref target="https://data.rism.info/id/rismauthorities/pe30028772 http://www.treccani.it/enciclopedia/felice-romani_(Dizionario-Biografico)"/>
+							<forename>Felice</forename>
+							<surname>Romani</surname>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1788-01-31">31 gennaio 1788</date>
+							<placeName>
+								<settlement type="municipality">Genova</settlement>
+								<settlement type="provincia" key="GE">Genova</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</birth>
+						<death>
+							<date when="1865-01-28">28 gennaio 1865</date>
+							<placeName>
+								<settlement type="municipality">Moneglia</settlement>
+								<settlement type="provincia" key="GE">Genova</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</death>
+						<note source="#Seminara2017" resp="#GS" ana="32">
+							<bibl>
+								<citedRange unit="page" from="75" to="75">75</citedRange>
+							</bibl>
+							<p>Felice Romani (Genova, 1788 - Moneglia, 1865), librettista. <persName ref="#VB">Bellini</persName>, che lo conobbe al suo arrivo a <placeName ref="#MI">Milano</placeName>, a lui si affidò per i <term subtype="music-term" ref="#libretto">libretti</term> di tutte le <term subtype="music-term" ref="#opera">opere</term> composte tra il 1827 e il 1833, dal <rs type="work" ref="#Pirata">Pirata</rs> a <rs type="work" ref="#Beatrice_di_Tenda">Beatrice di Tenda</rs>. Sul profilo intellettuale e artistico di Romani cfr. Alessandro Roccatagliati, <hi rend="italic">Felice Romani librettista</hi>, Lucca, LIM, 1996.</p>
+						</note>
+					</person>
+					<person xml:id="FT">
+						<persName>
+							<forename>Ferdinando</forename>
+							<surname>Turina</surname>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1795">1795</date>
+							<placeName ref="#Casal">
+								<settlement type="municipality">Casalbuttano</settlement>
+								<settlement type="provincia" key="CR">Cremona</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</birth>
+						<death>
+							<date when="1869">1869</date>
+							<placeName ref="#MI">
+								<settlement type="municipality">Milano</settlement>
+								<settlement type="provincia" key="MI">Milano</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</death>
+						<note resp="#GS">
+							<p>Ferdinando Turina (Casalbuttano, 1795 - Milano, 1869). Facoltoso imprenditore impegnato nella produzione e nel commercio della seta, era marito di <persName ref="#GCT">Giuditta Cantù</persName>. Definito da <persName ref="#VB">Bellini</persName> <quote rend="double angle quotation marks">Ferdinando l'impassibile</quote> (lettera a <persName ref="#GCT">Giuditta</persName> dell'11 gennaio 1830), nel 1833 divorziò dalla moglie.</p>
+						</note>
+					</person>
+					<listRelation>
+						<relation name="spouse" mutual="#FP #MGP"/>
+						<relation name="spouse" mutual="#GCT #FT"/>
+					</listRelation>
+				</listPerson>
+				<listPlace>
+					<head>Lista dei luoghi</head>
+					<place xml:id="Casal">
+                        <placeName ref="http://www.geonames.org/3180242/casalbuttano.html http://www.treccani.it/enciclopedia/casalbuttano-ed-uniti/">Casalbuttano</placeName>
+                        <country key="IT">Italia</country>
+                        <note resp="#GS">
+                            <p>Casalbuttano era una ridente cittadina del cremonese, dove risiedevano <persName ref="#FT">Ferdinando</persName> e <persName ref="#GCT">Giuditta Turina</persName>. <persName ref="#VB">Bellini</persName> fu spesso ospite del loro palazzo, sito in Contrada Maggiore.</p>
+                        </note>
+                    </place>
+					<place xml:id="CR">
+                        <placeName ref="http://www.geonames.org/3177838/cremona.html http://www.treccani.it/enciclopedia/cremona/">Cremona</placeName>
+                        <country key="IT">Italia</country>
+                        <note/>
+                    </place>
+					<place xml:id="CT">
+                        <placeName ref="http://www.geonames.org/2525068/catania.html http://www.treccani.it/enciclopedia/catania/">Catania</placeName>
+                        <country key="IT">Italia</country>
+                        <note/>
+                    </place>
+					<place xml:id="FI">
+                        <placeName ref="http://www.geonames.org/3176959 http://www.treccani.it/enciclopedia/firenze/">Firenze</placeName>
+                        <country key="IT">Italia</country>
+                        <note/>
+                    </place>
+					<place xml:id="London">
+                        <placeName ref="http://www.geonames.org/2643743 http://www.treccani.it/enciclopedia/london/">London</placeName>
+                        <country key="GB">Great Britain</country>
+                        <note/>
+                    </place>
+					<place xml:id="MI">
+                        <placeName ref="http://www.geonames.org/3173435 http://www.treccani.it/enciclopedia/milano/">Milano</placeName>
+                        <country key="IT">Italia</country>
+                        <note/>
+                    </place>
+					<place xml:id="NA">
+                        <placeName ref="http://www.geonames.org/3172394 http://www.treccani.it/enciclopedia/napoli/">Napoli</placeName>
+                        <country key="IT">Italia</country>
+						<note/>
+                    </place>
+					<place xml:id="Put">
+                        <placeName ref="http://www.geonames.org/2985034 http://www.treccani.it/enciclopedia/puteaux_(Enciclopedia-Italiana)">Puteaux</placeName>
+                        <district type="arrondissement">Nanterre</district>
+                        <settlement type="city">Paris</settlement>
+                        <country key="FR">France</country>
+                        <note source="#Seminara2017" resp="#GS" ana="580">
+							<bibl>
+								<citedRange unit="page" from="346" to="346">346</citedRange>
+							</bibl>
+							<p>Puteaux era un sobborgo di <placeName>Parigi</placeName>, immerso nel verde e situato sulla <foreign xml:lang="fr">rive gauche</foreign> della Senna. Qui <persName ref="#VB">Bellini</persName> si stabilì dal 26 maggio al 1° novembre 1834 e di nuovo nel 1835 dall'11 maggio al 23 settembre (giorno della morte) nella residenza di <persName>Solomon Levy</persName> (o Lewis), un facoltoso ebreo inglese che verosimilmente aveva conosciuto nel 1830 a <placeName ref="#MI">Milano</placeName>. <persName>Levy</persName>, che negli anni 1834-35 si trattenne stabilmente a <placeName>Parigi</placeName>, apparteneva alla cerchia delle più ristrette frequentazioni francesi del musicista; risiedeva in un lussuoso appartamento in Boulevard des Capucines, ma possedeva anche la residenza di Puteaux.</p>
+                        </note>
+                    </place>
+					<place xml:id="VE">
+                        <placeName ref="http://www.geonames.org/3164603 http://www.treccani.it/enciclopedia/venezia/">Venezia</placeName>
+                        <country key="IT">Italia</country>
+                        <note/>
+                    </place>
+					<listRelation>
+						<relation name="near" mutual="#Casal #CR"/>
+					</listRelation>
+				</listPlace>
+				<listOrg>
+					<head>Teatri ed enti</head>
+					<org type="publisher" xml:id="CasaRicordi">
+                        <orgName ref="https://it.wikipedia.org/wiki/Casa_Ricordi">Casa Editrice Ricordi</orgName>
+                        <placeName ref="#MI">Milano</placeName>
+                        <desc/>
+                    </org>
+					<org type="theatre" xml:id="Fenice">
+                        <orgName ref="http://www.treccani.it/enciclopedia/teatro-la-fenice/">Teatro La Fenice</orgName>
+                   		<placeName ref="#VE">Venezia</placeName>
+                        <desc></desc>
+                    </org>
+				</listOrg>
+				<list type="terminology">
+					<head>Vocabolario</head>
+					<label>
+                        <term subtype="music-term" xml:lang="it" xml:id="aria" key="">Aria</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#aria" source="#DellaSeta2010">Brano per voce sola appartenente a un'<term subtype="music-term" ref="#opera">opera</term>, <term subtype="music-term">oratorio</term>, <term subtype="music-term">cantata</term> o ad altro genere di <term subtype="music-term">teatro musicale</term> (nel <term subtype="music-term">balletto</term> solo strumentale). Il termine, usato già nel XIV sec. per indicare una melodia dal profilo ben riconoscibile, fu impiegato fin dalle origini dell'<term subtype="music-term" ref="#opera">opera</term> per designare sezioni cantabili che interrompevano la continuità del <term subtype="music-term">recitar cantando</term>, sia per rappresentare realisticamente l'atto del cantare (“Vi ricorda o boschi ombrosi” nell'Orfeo, 1607), sia per esprimere uno sfogo affettivo del personaggio.<gap reason="editorial"/> Nell'<term subtype="music-term" ref="#opera">opera</term> italiana del pieno Ottocento prevalse anche nelle arie la struttura in più movimenti codificata dalle <term subtype="music-term" ref="#opera">opere</term> di <persName>Rossini</persName> (<term subtype="music-term">numero</term>); questa articolazione favoriva l'integrazione dell'aria nell'azione drammatica in quanto prevedeva l'alternanza tra movimenti dinamici, in cui questa procede (<term subtype="music-term" ref="#scena">scena</term> e <term subtype="music-term">tempo di mezzo</term>), e momenti di stasi riflessiva (<term subtype="music-term">cantabile</term> e <term subtype="music-term">cabaletta</term>); la transizione tra i diversi momenti era spesso innescata dall'intervento di personaggi secondari (<term subtype="music-term">pertichino</term>) che interloquivano col solista titolare dell'aria.<gap reason="editorial"/></gloss>
+                    </item>
+					<label>
+                        <term subtype="other-term" xml:lang="it" xml:id="baicoli" key="">Baicoli</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#baicoli" source="#Seminara2017">I baicoli sono biscotti secchi tipici della pasticceria veneziana; il loro nome deriva dalla denominazione dialettale dei piccoli branzini di laguna, dei quali è riprodotta la forma allungata e lievemente schiacciata.</gloss>
+                    </item>
+					<label>
+                        <term subtype="music-term" xml:lang="it" xml:id="impresario" key="">Impresario</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#impresario" source="#DellaSeta2010">Imprenditore che si assume in prima persona la responsabilità economica di uno spettacolo teatrale, occupandosi dell'organizzazione logistica e della formazione del cast in accordo con i proprietari dei teatri. Come figura professionale la sua data di nascita coincide con quella degli spettacoli pubblici a <placeName ref="#VE">Venezia</placeName> nel 1637, quando la famiglia patrizia Tron affittò il <orgName type="theatre">Teatro S. Cassiano</orgName> alla compagnia formata dal librettista <persName>Benedetto Ferrari</persName> e dal compositore <persName>Francesco Manelliper</persName> la rappresentazione con ingresso a pagamento dell'<hi rend="italic">Andromeda</hi>. Per questa prima fase si parla di <term subtype="music-term" ref="#opera">opera</term> mercenaria, cioè a pagamento; successivamente, tra Sei e Settecento, la figura dell'impresario si istituzionalizzò, dando vita a un sistema di produzione noto come opera impresariale, in cui si affittavano i teatri cittadini o delle famiglie nobili per periodi di tempo sempre più lunghi, al fine di potervi tenere una o più <term subtype="music-term">stagioni</term>, incentrate sul reclutamento di una compagnia di canto e di ballo. Nella prima metà dell'Ottocento impresari quali <persName>Domenico Barbaja</persName> o <persName>Alessandro Lanari</persName> giunsero a controllare contemporaneamente più teatri in diverse città in Italia e all'estero. Nella seconda metà del secolo, a causa di un sistema produttivo sempre più di tipo industriale, di tipo industriale, l'iniziativa della produzione operistica fu assunta direttamente dalle case editrici (in Italia Ricordi, Lucca, Sonzogno), che soppiantarono progressivamente la figura dell'impresario nel determinare le scelte dei compositori e dei cantanti nei maggiori teatri del mondo. Nei teatri di oggi le competenze tradizionali dell'impresario sono suddivise tra diverse figure professionali, quali il sovrintendente, il direttore artistico e, in Germania, il Dramaturg.</gloss>
+                    </item>
+					<label>
+                        <term subtype="music-term" xml:lang="it" xml:id="libretto" key="">Libretto</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#libretto" source="#DellaSeta2010">Libro di piccolo formato contenente il testo letterario di un'<term subtype="music-term" ref="#opera">opera</term> o di altra composizione vocale di carattere drammatico e, per estensione, il testo stesso, costituito dalle parole destinate a essere cantate, in versi o, più raramente, in prosa, dalle descrizioni della <term subtype="music-term">scenografia</term> e dalle didascalie relative ai movimenti dei cantanti; può inoltre contenere indicazioni riguardanti uno specifico <term subtype="music-term">allestimento</term> dell'<term subtype="music-term" ref="#opera">opera</term>, il contesto storico della sua prima rappresentazione, a volte, dichiarazioni di poetica dell'autore o degli autori. Molte di queste informazioni, quali il nome del compositore, del coreografo e delle altre figure che collaborarono alla messa in scena della prima rappresentazione, l'elenco dei cantanti e dei ballerini che vi parteciparono, l'organico strumentale, l'esposizione dell'antefatto con la dichiarazione della fonte letteraria, la dedica e la lettera al lettore, hanno oggi un'importanza capitale per la comprensione storica della singola <term subtype="music-term" ref="#opera">opera</term> e del sistema produttivo in cui essa nacque. Dal punto di vista strettamente letterario, il libretto è da considerarsi principalmente come parte integrante di un'opera d'arte complessiva da cui dipende e che lo trascende. Sebbene in alcuni casi esso tenda a rivendicare una propria dignità letteraria, è innegabile che molti aspetti della sua struttura siano predeterminati dalle esigenze specifiche del <term subtype="music-term">teatro musicale</term> (prima fra tutte quella della declamazione cantata) e dalle innumerevoli convenzioni specifiche dei diversi generi operistici e dei diversi contesti storico-sociali. Così, la suddivisione in <term subtype="music-term">atti</term> e <term subtype="music-term" ref="#scena">scene</term>, la successione dei <term subtype="music-term">numeri</term> chiusi, la quantità di <term subtype="music-term" ref="#aria">arie</term> affidate a un personaggio (<term subtype="music-term">convenienze</term>), la maggiore o minor presenza di <term subtype="music-term">pezzi d'assieme</term>, l'impiego di determinate tipologie metriche e strofiche, ma anche il tipo di soggetto trattato (mitologico, storico o letterario), le modalità del suo svolgimento e del suo scioglimento (tragico o lieto) possono essere ricondotti a convenzioni, rispetto alle quali l'autore può disporre di una maggiore o minore libertà d'azione. Sebbene la paternità del libretto sia generalmente riconosciuta al poeta che lo ha prodotto (<term subtype="music-term">librettista</term>), sono frequenti i casi in cui l'intervento del compositore ne modifica in modo sostanziale l'assetto, conducendo a divergenze anche notevoli fra la versione pubblicata e quella riportata in partitura (il che rende opportuno pubblicarle entrambe in forma distinta). Altrettanto significativi sono i casi in cui il compositore decide di contravvenire intenzionalmente alle indicazioni implicite del libretto, per esempio trasformando un <term subtype="music-term">recitativo</term> in aria o viceversa, o ancora concependo situazioni musicali che contraddicono palesemente il senso del testo poetico.</gloss>
+                    </item>
+					<label>
+                        <term subtype="music-term" xml:lang="it" xml:id="opera" key="">Opera</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#opera" source="#DellaSeta2010">(dal plurale del latino opus, nel senso di “manufatto”) Spettacolo teatrale in cui l'azione si manifesta principalmente attraverso la musica e l'espressione canora dei personaggi. L'opera è un genere complesso, fondato sulla cooperazione tra testo letterario (<term subtype="music-term" ref="#libretto">libretto</term>), allestimento scenico e musica, che ha comunque una funzione essenziale nel caratterizzare drammaticamente il lavoro (drammaturgia musicale). Le differenti possibilità di relazione che intercorrono tra musica, libretto e aspetti scenici rendono pressoché impossibile una definizione univoca di opera. A ciò si aggiungono le difficoltà causate dall'evoluzione compiuta in quattro secoli di storia, dalla presenza sotto una comune etichetta di generi tra loro estremamente lontani, dalle specificità nazionali (sotto il profilo sia drammaturgico sia organizzativo). L'opera nacque nell'Italia del primo Seicento (<placeName ref="#FI">Firenze</placeName>, <placeName>Mantova</placeName>, <placeName>Roma</placeName>) come spettacolo di corte con carattere prevalentemente celebrativo. Dalla fine degli anni trenta, con l'apertura a <placeName ref="#VE">Venezia</placeName> dei primi teatri pubblici a pagamento, si impose il modello dell'opera <term subtype="music-term" ref="#impresario">impresariale</term>, che produsse in Italia, con la rapida e diffusa circolazione di cantanti, compositori, scenografi, l'attività di una miriade di sale teatrali sparse sul territorio (dalle grandi capitali dotate di numerosi palcoscenici ai piccoli centri) e una produzione sterminata di nuovi lavori (nel XVIII secolo e nella prima metà del XIX secolo i compositori arrivavano a scrivere tre o quattro novità all'anno). Tale modello si diffuse ben presto in Europa, imponendo nel Settecento – nelle tre declinazioni dell'<term subtype="music-term" ref="#opera_seria">opera seria</term>, dell'<term subtype="music-term">opera buffa</term> e poi dell'<term subtype="music-term">opera semiseria</term> – il predominio italiano che perdura ancor oggi nei cartelloni dei teatri di tutto il mondo.<gap reason="editorial"/></gloss>
+                    </item>
+					<label>
+                        <term subtype="music-term" xml:lang="it" xml:id="opera_seria" key="">Opera seria</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#opera_seria" source="#DellaSeta2010">Genere dell'<term subtype="music-term" ref="#opera">opera</term> italiana, che comprende le <term subtype="music-term" ref="#opera">opere</term> di argomento eroico o tragico dalla fine del XVII all'inizio del XIX sec. Il termine non compare mai nei <term subtype="music-term" ref="#libretto">libretti</term> (dove domina la dizione <term subtype="music-term">dramma per musica</term>, a volte specificato come “serio”), ma entrò nell'uso corrente quando si istituzionalizzò la separazione rispetto all'<term subtype="music-term">opera buffa</term>.<gap reason="editorial"/> Regolata da un indirizzo estetico classicista di matrice razionalista, l'opera seria mirava alla rappresentazione idealizzata di valori morali e di comportamenti esemplari della classe nobiliare, attraverso soggetti desunti principalmente dalla storia antica. Tra le sue principali caratteristiche drammatiche e musicali, che si assestarono, con la produzione metastasiana, in un solido complesso di convenzioni, vi sono la divisione del dramma in tre <term subtype="music-term">atti</term>, una chiara articolazione delle <term subtype="music-term" ref="#scena">scene (3)</term>, il rispetto delle unità di tempo e di azione con esclusione di trame secondarie, l'espunzione di ogni componente comica, un numero limitato di personaggi (non più di otto), l'organizzazione musicale in base ai due regimi stilistici del <term subtype="music-term">recitativo</term> e dell'<term subtype="music-term" ref="#aria">aria</term>, la distribuzione di queste ultime secondo un equilibrato sistema mirante a ottenere varietà di caratteri espressivi e a rispettare le gerarchie di prestigio trai vari cantanti (<term subtype="music-term">convenienze</term>).</gloss>
+                    </item>
+					<label>
+                        <term subtype="music-term" xml:lang="it" xml:id="scena" key="">Scena</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#scena" source="#DellaSeta2010">(1) Spazio che ospita la rappresentazione teatrale visibile al pubblico, delimitato orizzontalmente dal <term subtype="music-term">palcoscenico</term> e verticalmente dalla <term subtype="music-term">scenografia</term>. (2) Luogo in cui è ambientata e in cui si sviluppa l'azione drammatica. (3) Unità di suddivisione, spesso numerata, del testo drammatico, caratterizzata da omogeneità di luogo e tempo e definita dall'ingresso e dall'uscita di uno o più personaggi. Le scene, di numero variabile, possono essere raggruppate in <term subtype="music-term">quadri</term> se si svolgono con identica scenografia oppure in <term subtype="music-term">atti</term>; nel <term subtype="music-term">teatro musicale</term> la transizione tra le scene è spesso accompagnata da un <term subtype="music-term">interludio strumentale</term>. (4) Nel <term subtype="music-term">melodramma</term> del XIX sec., episodio drammatico che combina <term subtype="music-term">recitativo</term>, <term subtype="music-term">arioso</term> e musica orchestrale, e che costituisce la prima sezione di un <term subtype="music-term">numero</term>. Il termine era a volte impiegato (anche nella forma "gran scena") per definire un intero numero solistico, formato da molte sezioni, in cui l'interesse drammatico prevaleva su quello strettamente musicale.</gloss>
+                    </item>
+				</list>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName ref="#VB" role="composer">Vincenzo Bellini</persName>
+					<placeName ref="#VE" type="postmark">Venezia</placeName>
+					<date when="1830-01-20" cert="high" resp="#GS" type="writing">20 gennaio 1830</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#GCT">Giuditta Turina</persName>
+					<placeName ref="#Casal" type="writing">Casalbuttano</placeName>
+					<date>unknown</date>
+				</correspAction>
+				<correspContext>
+					<p><persName ref="#VB">Bellini</persName> scrive una lettera di saluti alla sua amante <persName ref="#GCT">Giuditta Turina</persName>, mentre si trova a <placeName ref="#VE">Venezia</placeName> per comporre l'<term subtype="music-term" ref="#opera">opera</term> <rs type="work" ref="#Capuleti">I Capuleti e i Montecchi</rs>, commisionatagli per il <orgName type="theatre" ref="#Fenice">Teatro La Fenice</orgName>.</p>
+				</correspContext>
+			</correspDesc>
+			<textClass>
+				<keywords scheme="http://thes.bncf.firenze.sbn.it">
+					<term resp="#GS">lettera</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="it">italiano di inizio Ottocento</language>
+				<language ident="fr">francese</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" xml:id="LL1.2_folio_1fr">
+			<graphic url="LL1.2_0001.jpg" width="1541px" height="2290px"/>
+			<zone ulx="795" uly="115" lrx="1331" lry="189" rendition="Line" xml:id="LL1.2_line_1fr_01"/>
+			<zone ulx="242" uly="207" lrx="766" lry="290" rendition="Line" xml:id="LL1.2_line_1fr_02"/>
+			<zone ulx="476" uly="313" lrx="1518" lry="403" rendition="Line" xml:id="LL1.2_line_1fr_03"/>
+			<zone ulx="126" uly="411" lrx="1518" lry="509" rendition="Line" xml:id="LL1.2_line_1fr_04"/>
+			<zone ulx="126" uly="505" lrx="1518" lry="600" rendition="Line" xml:id="LL1.2_line_1fr_05"/>
+			<zone ulx="126" uly="595" lrx="1518" lry="675" rendition="Line" xml:id="LL1.2_line_1fr_06"/>
+			<zone ulx="126" uly="685" lrx="1518" lry="788" rendition="Line" xml:id="LL1.2_line_1fr_07"/>
+			<zone ulx="126" uly="772" lrx="1518" lry="856" rendition="Line" xml:id="LL1.2_line_1fr_08"/>
+			<zone ulx="126" uly="865" lrx="1518" lry="964" rendition="Line" xml:id="LL1.2_line_1fr_09"/>
+			<zone ulx="126" uly="961" lrx="1518" lry="1069" rendition="Line" xml:id="LL1.2_line_1fr_10"/>
+			<zone ulx="126" uly="1060" lrx="1518" lry="1157" rendition="Line" xml:id="LL1.2_line_1fr_11"/>
+			<zone ulx="126" uly="1159" lrx="1518" lry="1255" rendition="Line" xml:id="LL1.2_line_1fr_12"/>
+			<zone ulx="126" uly="1242" lrx="1518" lry="1353" rendition="Line" xml:id="LL1.2_line_1fr_13"/>
+			<zone ulx="126" uly="1336" lrx="1518" lry="1438" rendition="Line" xml:id="LL1.2_line_1fr_14"/>
+			<zone ulx="126" uly="1429" lrx="1518" lry="1538" rendition="Line" xml:id="LL1.2_line_1fr_15"/>
+			<zone ulx="126" uly="1520" lrx="1518" lry="1628" rendition="Line" xml:id="LL1.2_line_1fr_16"/>
+			<zone ulx="126" uly="1629" lrx="1518" lry="1726" rendition="Line" xml:id="LL1.2_line_1fr_17"/>
+			<zone ulx="126" uly="1719" lrx="1518" lry="1824" rendition="Line" xml:id="LL1.2_line_1fr_18"/>
+			<zone ulx="126" uly="1823" lrx="1518" lry="1901" rendition="Line" xml:id="LL1.2_line_1fr_19"/>
+			<zone ulx="126" uly="1912" lrx="1518" lry="2011" rendition="Line" xml:id="LL1.2_line_1fr_20"/>
+			<zone ulx="126" uly="2003" lrx="1518" lry="2100" rendition="Line" xml:id="LL1.2_line_1fr_21"/>
+			<zone ulx="126" uly="2080" lrx="1518" lry="2175" rendition="Line" xml:id="LL1.2_line_1fr_22"/>
+			<zone ulx="126" uly="2163" lrx="1518" lry="2235" rendition="Line" xml:id="LL1.2_line_1fr_23"/>
+		</surface>
+		<surface n="2" xml:id="LL1.2_folio_1rr">
+			<graphic url="LL1.2_0002.jpg" width="1555px" height="2275px"/>
+			<zone ulx="167" uly="306" lrx="1541" lry="408" rendition="Line" xml:id="LL1.2_line_1rr_01"/>
+			<zone ulx="913" uly="398" lrx="1358" lry="489" rendition="Line" xml:id="LL1.2_line_1rr_02"/>
+			<zone ulx="1145" uly="485" lrx="1434" lry="545" rendition="Line" xml:id="LL1.2_line_1rr_03"/>
+			<zone ulx="332" uly="526" lrx="833" lry="695" rendition="Line" xml:id="LL1.2_line_1rr_04"/>
+		</surface>
+		<surface n="3" xml:id="LL1.2_folio_1rv">
+			<graphic url="LL1.2_0003.jpg" width="2282px" height="1545px"/>
+		</surface>
+		<surface n="4" xml:id="LL1.2_folio_1fv">
+			<graphic url="LL1.2_0004.jpg" width="2293px" height="1555px"/>
+			<zone ulx="1240" uly="583" lrx="1617" lry="679" rendition="Line" xml:id="LL1.2_line_1fv_01"/>
+			<zone ulx="622" uly="646" lrx="1610" lry="754" rendition="Line" xml:id="LL1.2_line_1fv_02"/>
+			<zone ulx="725" uly="777" lrx="1018" lry="843" rendition="Line" xml:id="LL1.2_line_1fv_03"/>
+			<zone ulx="1044" uly="800" lrx="1816" lry="913" rendition="Line" xml:id="LL1.2_line_1fv_04"/>
+			<!-- timbro mittente -->
+			<zone ulx="1504" uly="330" lrx="1873" lry="452" rendition="HotSpot" xml:id="LL1.2_hotspot_1fv_01"/>
+			<!-- seconda mano -->
+			<zone ulx="1116" uly="350" lrx="1677" lry="779" rendition="HotSpot" xml:id="LL1.2_hotspot_1fv_02"/>
+			<!-- terza mano -->
+			<zone ulx="927" uly="1061" lrx="1039" lry="1128" rendition="HotSpot" xml:id="LL1.2_hotspot_1fv_03"/>
+			<!-- quarta mano -->
+			<zone ulx="809" uly="1015" lrx="920" lry="1165" rendition="HotSpot" xml:id="LL1.2_hotspot_1fv_04"/>
+			<!-- sigillo -->
+			<zone ulx="1052" uly="1177" lrx="1326" lry="1468" rendition="HotSpot" xml:id="LL1.2_hotspot_1fv_05"/>
+		</surface>
+	</facsimile>
+	<text type="lettera" xml:id="LL1.2" subtype="manuscript" n="LL1.2">
+		<front>
+			<pb n="4" xml:id="LL1.2_fol_1fv_front" facs="#LL1.2_folio_1fv"/>
+			<div type="envelope">
+				<div type="sent">
+					<ab xml:id="LL1.2_hs_1fv_01" facs="#LL1.2_hotspot_1fv_01" copyOf="#LL1.2_hs_1fv_01_body">
+						<stamp type="postmark">
+							<mentioned>
+								<placeName ref="#VE">Venezia</placeName>
+							</mentioned>
+							<date when="1830-01-20">20 gennaio 1830</date>
+						</stamp>
+					</ab>
+				</div>	
+				<div type="destination">
+					<ab type="receiver">
+						<address>
+							<lb xml:id="LL1.2_lb_1fv_01" n="1" facs="#LL1.2_line_1fv_01"/>
+							<addrLine>Madame</addrLine>
+							<lb xml:id="LL1.2_lb_1fv_02" n="2" facs="#LL1.2_line_1fv_02"/>
+							<addrLine>Madame <persName ref="#GCT">Judith Turina</persName></addrLine>
+							<lb xml:id="LL1.2_lb_1fv_03" n="3" facs="#LL1.2_line_1fv_03"/>
+							<addrLine><placeName ref="#CR">Cremone</placeName></addrLine>
+							<lb xml:id="LL1.2_lb_1fv_04" n="4" facs="#LL1.2_line_1fv_04"/>
+							<addrLine>pour <placeName ref="#Casal">Casalbuttano</placeName></addrLine>
+						</address>
+					</ab>
+				</div>
+			</div>
+		</front>
+		<body xml:lang="it">
+			<div type="fronte-recto">
+				<pb n="1" xml:id="LL1.2_fol_1fr" facs="#LL1.2_folio_1fr"/>
+				<div type="opener" n="o_01">
+					<dateline n="ab_01">
+	  					<s type="sentence" n="s_01">
+							<lb xml:id="LL1.2_lb_1fr_01" n="1" facs="#LL1.2_line_1fr_01"/>
+							<hi rend="align(right)"><placeName ref="#VE">Venezia</placeName> <date when="1830-01-20" cert="high" resp="#GS">20 del 1830</date></hi>
+						</s>
+					</dateline>					
+				</div>
+				<div type="letter-body" n="t_01">
+					<salute  n="ab_02">
+						<s type="sentence" n="s_02">
+							<lb xml:id="LL1.2_lb_1fr_02" n="2" facs="#LL1.2_line_1fr_02"/>
+							Mia cara <persName ref="#GCT">amica</persName>
+						</s>
+					</salute>
+					<ab type="parag" rend="first_line_indented" n="ab_03">
+						<s type="sentence" n="s_03">
+							<lb xml:id="LL1.2_lb_1fr_03" n="3" facs="#LL1.2_line_1fr_03"/>
+							Ieri finalmente ho ricevuto <choice><abbr>vre</abbr><expan resp="#GS">v<ex>ost</ex>re</expan></choice> notizie
+							<lb xml:id="LL1.2_lb_1fr_04" n="4" facs="#LL1.2_line_1fr_04"/>
+							per mezzo del <rs type="person">Dottor</rs> <hi rend="underline">maggiore</hi>, e mi spiace <w>sen
+								<lb xml:id="LL1.2_lb_1fr_05" n="5" facs="#LL1.2_line_1fr_05" break="no" rend="double stroke"/>
+							tire</w> il <choice><abbr>vro</abbr><expan resp="#GS">v<ex>ost</ex>ro</expan></choice> <distinct type="archaic">incommodo</distinct> che spero a quest'ora sparito.
+						</s>
+						<s type="sentence" n="s_04">
+							<lb xml:id="LL1.2_lb_1fr_06" n="6" facs="#LL1.2_line_1fr_06"/>
+							La lettera è in data del <date when="1830-01-10">10:</date> e vedete quanti <w>gior
+								<lb xml:id="LL1.2_lb_1fr_07" n="7" facs="#LL1.2_line_1fr_07" break="no" rend="double stroke"/>
+							ni</w> è stata in viaggio.
+						</s>
+						<s type="sentence" n="s_05">
+							– Di già si è risoluto <distinct type="archaic">jersera</distinct>,
+							<lb xml:id="LL1.2_lb_1fr_08" n="8" facs="#LL1.2_line_1fr_08"/>
+							con la venuta di <persName ref="#FR" role="librettist">Romani</persName>, che io devo scrivere l'<term subtype="music-term" ref="#opera">opera</term><ptr target="#LL1_2_note1"/>
+							<lb xml:id="LL1.2_lb_1fr_09" n="9" facs="#LL1.2_line_1fr_09"/>
+							per andare in scena almeno il <date when="1830-03-05">5: marzo</date>: vedete che
+							<lb xml:id="LL1.2_lb_1fr_10" n="10" facs="#LL1.2_line_1fr_10"/>
+							strozzamento ed avete avuto ragione a farmi <w>sgri
+								<lb xml:id="LL1.2_lb_1fr_11" n="11" facs="#LL1.2_line_1fr_11" break="no" rend="double stroke"/>
+							dare</w> dal dottore; ma adesso che lo devo senza <w>ri
+								<lb xml:id="LL1.2_lb_1fr_12" n="12" facs="#LL1.2_line_1fr_12" break="no" rend="double stroke"/>
+							medio</w> ho bisogno d'<choice><sic>incoragiamento</sic><corr>incoraggiamento</corr></choice>, e quindi vi
+							<lb xml:id="LL1.2_lb_1fr_13" n="13" facs="#LL1.2_line_1fr_13"/>
+							prego di non abbandonarmi coi <choice><abbr>vri</abbr><expan resp="#GS">v<ex>ost</ex>ri</expan></choice> consigli e
+							<lb xml:id="LL1.2_lb_1fr_14" n="14" facs="#LL1.2_line_1fr_14"/>
+							spesso: ciò vi basta, e voi sapete se mi sono
+							<lb xml:id="LL1.2_lb_1fr_15" n="15" facs="#LL1.2_line_1fr_15"/>
+							care le <choice><abbr>vre</abbr><expan resp="#GS">v<ex>ost</ex>re</expan></choice> spesse nuove: egualmente ho
+							<lb xml:id="LL1.2_lb_1fr_16" n="16" facs="#LL1.2_line_1fr_16"/>
+							pregato la <persName ref="#FP" role="composer">Pollini</persName> e <persName ref="#FFlo">Florimo</persName>, ed aspetto a
+							<lb xml:id="LL1.2_lb_1fr_17" n="17" facs="#LL1.2_line_1fr_17"/>
+							vedere chi sarà la più pietosa.
+						</s>
+						<s type="sentence" n="s_06">
+							– Se <w>vole
+								<lb xml:id="LL1.2_lb_1fr_18" n="18" facs="#LL1.2_line_1fr_18" break="no" rend="double stroke"/>
+							te</w> <g rend="superscript">che</g> i <term subtype="other-term" ref="#baicoli">baicoli</term> ve li mandi con la diligenza,
+							<lb xml:id="LL1.2_lb_1fr_19" n="19" facs="#LL1.2_line_1fr_19"/>
+							avvisatemelo.
+						</s>
+						<s type="sentence" n="s_07">
+							– Vi contenterete da qui innanzi
+							<lb xml:id="LL1.2_lb_1fr_20" n="20" facs="#LL1.2_line_1fr_20"/>
+							di quel poco che potrò scrivervi, sebbene di spesso,
+							<lb xml:id="LL1.2_lb_1fr_21" n="21" facs="#LL1.2_line_1fr_21"/>
+							e ciò lo condonerete al gran ristretto tempo.
+						</s>
+						<s type="sentence" n="s_08">
+							Fate
+							<lb xml:id="LL1.2_lb_1fr_22" n="22" facs="#LL1.2_line_1fr_22"/>
+							le mie parti con tutti di casa, e ringraziate il
+							<lb xml:id="LL1.2_lb_1fr_23" n="23" facs="#LL1.2_line_1fr_23"/>
+							<rs type="person"> Dottore</rs> da mia parte.
+						</s>
+						<s type="sentence" n="s_09a">
+							Gli <choice><abbr>abb<am>:</am><g rend="superscript">ci</g></abbr><expan resp="#GS">abb<ex>rac</ex>ci</expan></choice> a <persName ref="#FT">Ferdinando</persName> e voi
+						</s>
+					</ab>
+				</div>
+			</div>
+			<div type="retro-recto">
+				<div type="letter-body" n="t_02">
+					<ab type="parag" n="ab_04">
+						<s type="sentence" n="s_09b">
+							<pb n="2" xml:id="LL1.2_fol_1rr" facs="#LL1.2_folio_1rr"/>
+							<lb xml:id="LL1.2_lb_1rr_01" n="24" facs="#LL1.2_line_1rr_01"/>
+							ricevete i miei bacia-mano e credetemi sempre
+						</s>
+					</ab>
+					<join target="#s_09a #s_09b" result="s" type="sentence" n="s_09" scope="branches"></join>
+				</div>
+				<div type="closer" n="c_01">
+					<salute n="ab_05">
+						<s type="sentence" n="s_10">
+							<lb xml:id="LL1.2_lb_1rr_02" n="25" facs="#LL1.2_line_1rr_02"/>
+							<hi rend="align(right)">Il <choice><abbr>vro</abbr><expan resp="#GS">v<ex>ost</ex>ro</expan></choice> <abbr>affssmo</abbr></hi>
+							<lb xml:id="LL1.2_lb_1rr_03" n="26" facs="#LL1.2_line_1rr_03"/>
+							<hi rend="align(right)"><persName ref="#VB" role="composer">Bellini</persName></hi>
+						</s>
+						<s type="sentence" n="s_11">
+							<lb xml:id="LL1.2_lb_1rr_04" n="27" facs="#LL1.2_line_1rr_04"/>
+							<hi rend="underline"><persName ref="#FFlo">Florimo</persName> vi saluta</hi>
+						</s>						
+					</salute>
+				</div>
+			</div>
+			<div type="retro-verso">
+				<pb n="3" xml:id="LL1.2_fol_1rv" facs="#LL1.2_folio_1rv"/>
+			</div>
+			<div type="fronte-verso">
+				<pb n="4" xml:id="LL1.2_fol_1fv_body" facs="#LL1.2_folio_1fv"/>
+				<div type="sent">
+					<ab xml:id="LL1.2_hs_1fv_01_body" facs="#LL1.2_hotspot_1fv_01">
+						<stamp type="postmark">
+							<mentioned>
+								<placeName ref="#VE">Venezia</placeName>
+							</mentioned>
+							<date when="1830-01-20">20 gennaio 1830</date>
+						</stamp>
+					</ab>
+				</div>
+				<div type="destination">
+					<ab type="receiver">
+						<address>
+							<lb xml:id="LL1.2_lb_1fv_01_body" n="1" facs="#LL1.2_line_1fv_01"/>
+							<addrLine>Madame</addrLine>
+							<lb xml:id="LL1.2_lb_1fv_02_body" n="2" facs="#LL1.2_line_1fv_02"/>
+							<addrLine>Madame <persName ref="#GCT">Judith Turina</persName></addrLine>
+							<lb xml:id="LL1.2_lb_1fv_03_body" n="3" facs="#LL1.2_line_1fv_03"/>
+							<addrLine><placeName ref="#CR">Cremone</placeName></addrLine>
+							<lb xml:id="LL1.2_lb_1fv_04_body" n="4" facs="#LL1.2_line_1fv_04"/>
+							<addrLine>pour <placeName ref="#Casal">Casalbuttano</placeName></addrLine>
+						</address>
+					</ab>
+				</div>
+				<div type="paratext">
+					<ab type="paratext" subtype="addition" hand="#h1" xml:id="LL1.2_hs_1fv_02" facs="#LL1.2_hotspot_1fv_02">
+						<unclear>VI</unclear>
+					</ab>
+					<ab type="paratext" subtype="addition" hand="#h2" xml:id="LL1.2_hs_1fv_03" facs="#LL1.2_hotspot_1fv_03">
+						<fw type="catalogNum">
+							<idno type="oldCat">20</idno>
+						</fw>
+					</ab>
+					<ab type="paratext" subtype="addition" hand="#h3" xml:id="LL1.2_hs_1fv_04" facs="#LL1.2_hotspot_1fv_04">
+						<unclear>g</unclear>
+					</ab>
+				</div>
+			</div>
+		</body>
+		<back>
+			<div type="notes">
+				<div type="ann_notes">
+					<note xml:id="LL1_2_note1" resp="#DC">
+						<p><persName ref="#VB">Bellini</persName> si riferiva all'<term subtype="music-term" ref="#opera">opera</term> <rs type="work" ref="#Capuleti">I Capuleti e i Montecchi</rs>.</p>
+					</note>
+				</div>
+				<div type="bibliography">
+					<listBibl xml:id="LL1_2_bibliography">
+						<head>Bibliografia della lettera LL1.2</head>
+						<bibl xml:id="LL1_2_Pastura">
+						 	<ref target="#Pastura1958">
+							 	<bibl>
+									<author>Pastura</author>
+	                                <date when="1958">1958</date>
+									<citedRange unit="page" from="4" to="4">4</citedRange>
+								</bibl>
+							</ref>
+						</bibl>
+						<bibl xml:id="LL1_2_Neri">
+						 	<ref target="#Neri2005">
+							 	<bibl>
+									<author>Neri</author>
+	                                <date when="2005">2005</date>
+									<citedRange unit="page" from="158" to="159">158-159</citedRange>
+								</bibl>
+							</ref>
+						</bibl>
+						<bibl xml:id="LL1_2_Seminara">
+						 	<ref target="#Seminara2017">
+								<bibl>
+									<author>Seminara</author>
+	                                <date when="2017">2017</date>
+									<citedRange unit="page" from="206" to="207">206-207</citedRange>
+								</bibl>
+							</ref>
+						</bibl>
+					</listBibl>
+				</div>
+			</div>
+			<div type="biblCompleta">
+				<listBibl>
+					<bibl xml:id="DellaSeta2010" type="print">
+						<editor xml:id="FDS">
+							<forename>Fabrizio</forename>
+							<surname>Della Seta</surname>
+						</editor>
+						<title level="m">Le parole del teatro musicale</title>
+						<pubPlace>Roma</pubPlace>
+						<publisher>Carocci</publisher>
+						<date when="2010">2010</date>
+					</bibl>
+					<bibl xml:id="Neri2005" type="print">
+						<author xml:id="CN">
+							<forename>Carmelo</forename>
+							<surname>Neri</surname>
+						</author>
+						<title level="m">Vincenzo Bellini. Nuovo Epistolario. 1819-1835</title>
+						<pubPlace>Catania</pubPlace>
+						<publisher>Agorà</publisher>
+						<date when="2005">2005</date>
+					</bibl>
+					<bibl xml:id="Pastura1958" type="print">
+						<author xml:id="FPa">
+							<forename>Francesco</forename>
+							<surname>Pastura</surname>
+						</author>
+						<title level="a">Nuovi importanti documenti assicurati al Museo Belliniano</title>
+						<title level="j">Rivista del Comune di Catania</title>
+						<biblScope unit="volume">VI</biblScope>
+						<biblScope unit="page" from="111" to="118">111-118</biblScope>
+						<pubPlace>Catania</pubPlace>
+						<date when="1958">ottobre-dicembre 1958</date>
+					</bibl>
+					<bibl xml:id="Seminara2017" type="print">
+						<editor ref="#GS">
+							<forename>Graziella</forename>
+							<surname>Seminara</surname>
+						</editor>
+						<title level="m">Vincenzo Bellini. Carteggi</title>
+						<title level="s">Historiae Musicae Cultores</title>
+						<biblScope unit="volume">CXXXI</biblScope>
+						<biblScope unit="page">pp. vi+622</biblScope>
+						<pubPlace>Firenze</pubPlace>
+						<publisher>Leo S. Olschki Editore</publisher>
+						<date when="2017">2017</date>
+					</bibl>
+				</listBibl>
+			</div>
+			<div type="work">
+				<listBibl>
+					<bibl xml:id="Beatrice_di_Tenda">
+						<ref target="https://it.wikipedia.org/wiki/Beatrice_di_Tenda_(dramma)"/>
+						<title>Beatrice di Tenda</title>
+						<note type="composer"><ref target="#VB"/>Vincenzo Bellini</note>
+						<note type="librettist"><ref target="#FR"/>Felice Romani</note>
+						<orgName type="theatre" ref="#Fenice">Teatro La Fenice</orgName>
+						<placeName ref="#VE">Venezia</placeName>
+						<date when="1833-03-16">16 marzo 1833</date>
+						<note resp="#GS">
+							<p>Ispirata a un dramma di <persName>Carlo Tebaldi Flores</persName>, <hi rend="italic">Beatrice di Tenda</hi> fu messa in scena al <orgName type="theatre" ref="#Fenice">Teatro La Fenice</orgName> il 16 marzo 1833 con <persName>Giuditta Pasta</persName> nel ruolo della protagonista. La prima rappresentazione dell'<term subtype="music-term" ref="#opera">opera</term> fu un <quote rend="double angle quotation marks">sollenne fiasco</quote>, come avrebbe riconosciuto lo stesso <persName ref="#VB">Bellini</persName> in una lettera del successivo 21 marzo al compositore <persName>Giuseppe Bornaccini</persName> (Ancona, 1802-1881), suo condiscepolo al Collegio di San Sebastiano in <placeName ref="#NA">Napoli</placeName>.</p>
+						</note>
+					</bibl>
+					<bibl xml:id="Bianca_e_Gernando">
+						<ref target="https://it.wikipedia.org/wiki/Bianca_e_Fernando"/>
+						<title>Bianca e Gernando</title>
+						<note type="composer"><ref target="#VB"/>Vincenzo Bellini</note>
+						<note type="librettist">Domenico Gilardoni</note>
+						<orgName type="theatre">Teatro San Carlo</orgName>
+						<placeName ref="#NA">Napoli</placeName>
+						<date when="1826-05-30">30 maggio 1826</date>
+						<note source="#Seminara2017" resp="#GS" ana="25">
+							<bibl>
+								<citedRange unit="page" from="72" to="72">72</citedRange>
+							</bibl>
+							<p><hi rend="italic">Bianca e Gernando</hi>, composta su <term subtype="music-term" ref="#libretto">libretto</term> di <persName>Domenico Gilardoni</persName> è andata in scena al <orgName type="theatre">Teatro San Carlo</orgName> il 30 maggio 1826 con <persName>Henriette Méric Lalande</persName> e <persName>Giovanni Battista Rubini</persName>.</p>
+						</note>
+						<note resp="#EC">
+							<p>Il titolo originale <hi rend="italic">Bianca e Fernando</hi> fu sostituito da <persName ref="#VB">Bellini</persName> in <hi rend="italic">Bianca e Gernando</hi> in occasione del debutto dell'<term subtype="music-term" ref="#opera">opera</term> per riguardo al principe <persName>Ferdinando di Borbone</persName>.</p>
+						</note>	
+						<note source="#Seminara2017" resp="#GS" ana="50">
+							<bibl>
+								<citedRange unit="page" from="79" to="80">79-80</citedRange>
+							</bibl>
+							<p>Il soggetto di <hi rend="italic">Bianca e Fernando</hi> derivava dal dramma di <persName>Carlo Roti</persName> <hi rend="italic">Bianca e Fernando</hi> alla tomba di <persName>Carlo IV</persName> duca di <placeName>Agrigento</placeName>, messo in scena a <placeName ref="#NA">Napoli</placeName> nel 1820 e pubblicato nel 1825 dall'editore <orgName type="publisher">Gaetano Nobile</orgName>.</p>
+						</note>
+					</bibl>
+					<bibl xml:id="Capuleti">
+						<ref target="http://www.treccani.it/enciclopedia/capuleti-e-montecchi"/>
+						<title> I Capuleti e i Montecchi</title>
+						<note type="composer"><ref target="#VB"/>Vincenzo Bellini</note>
+						<note type="librettist"><ref target="#FR"/>Felice Romani</note>
+						<orgName type="theatre" ref="#Fenice">Teatro La Fenice</orgName>
+						<placeName ref="#VE">Venezia</placeName>
+						<date when="1830-03-11">11 marzo 1830</date>
+						<note resp="#GS">
+							<p>La <term subtype="music-term">tragedia lirica</term> <hi rend="italic">I Capuleti e i Montecchi</hi> fu composta da <persName ref="#VB">Bellini</persName> su commissione di <persName>Alessandro Lanari</persName>, impresario del <orgName type="theatre" ref="#Fenice">Teatro La Fenice</orgName> di <placeName ref="#VE">Venezia</placeName>: il musicista, che si trovava nella città lagunare dal dicembre 1829 per seguire la rappresentazione del <rs type="work" ref="#Pirata">Pirata</rs>, aveva accettato la proposta di sostituire l'inadempiente <persName>Pacini</persName> per la stagione del Carnevale del 1830. La ristrettezza del tempo indusse <persName ref="#FR">Felice Romani</persName> a riutilizzare il <term subtype="music-term" ref="#libretto">libretto</term> di <hi rend="italic">Giulietta e Romeo</hi>, scritto nel 1825 per <persName>Nicola Vaccaj</persName>; a sua volta Bellini si avvalse delle musiche già composte per <rs type="work">Zaira</rs>, l'<term subtype="music-term" ref="#opera">opera</term> con la quale il 16 maggio 1829 aveva inaugurato il <orgName type="theatre">Teatro Ducale</orgName> di <placeName>Parma</placeName> incontrando un sostanziale insuccesso. Fu invece trionfale l'accoglienza riservata dal pubblico veneziano ai <hi rend="italic">Capuleti</hi>, che andarono in scena al <orgName type="theatre" ref="#Fenice">Teatro La Fenice</orgName> l'11 marzo 1830.</p>
+						</note>
+					</bibl>
+					<bibl xml:id="Pirata">
+						<ref target="https://it.wikipedia.org/wiki/Il_pirata"/>
+						<title>Il pirata</title>
+						<note type="composer"><ref target="#VB"/>Vincenzo Bellini</note>
+						<note type="librettist"><ref target="#FR"/>Felice Romani</note>
+						<orgName type="theatre">Teatro alla Scala</orgName>
+						<placeName ref="#MI">Milano</placeName>
+						<date when="1827-10-27">27 ottobre 1827</date>
+						<note source="#Seminara2017" resp="#GS" ana="41">
+							<bibl>
+								<citedRange unit="page" from="77" to="77">77</citedRange>
+							</bibl>
+							<p>La terza <term subtype="music-term" ref="#opera">opera</term> di <persName ref="#VB">Bellini</persName>, <hi rend="italic">Il pirata</hi>, messa in scena al <orgName type="theatre">Teatro alla Scala</orgName> il 27 ottobre 1827 con <persName>Henriette Méric Lalande</persName>, <persName>Giovanni Battista Rubini</persName> e <persName>Antonio Tamburini</persName>.</p>
+						</note>
+					</bibl>
+					<bibl xml:id="Sonnambula">
+						<ref target="http://www.treccani.it/enciclopedia/la-sonnambula-o-i-due-fidanzati-svizzeri"/>
+						<title>La sonnambula</title>
+						<note type="composer"><ref target="#VB"/>Vincenzo Bellini</note>
+						<note type="librettist"><ref target="#FR"/>Felice Romani</note>
+						<orgName type="theatre">Teatro Carcano</orgName>
+						<placeName ref="#MI">Milano</placeName>
+						<date when="1831-03-06">6 marzo 1831</date>
+						<note resp="#GS">
+             				<p><hi rend="italic">La Sonnambula</hi>, ispirata al <term subtype="music-term">balletto</term>-<term subtype="music-term">pantomima</term> <hi rend="italic">La Sunnambule, ou L'arrivée d'un nouveau Seigneur</hi> di <persName>Eugéne Scribe</persName> messo in musica da <persName>Louis-Ferdinand Hérold</persName> (Parigi, Opéra, 19 settembre 1827), fu commissionata a <persName ref="#VB">Bellini</persName> dal <orgName type="theatre">Teatro Carcano</orgName> di Milano, dove andò in scena il 6 marzo 1831 con grande successo. La parte di Amina fu tenuta da <persName>Giuditta Pasta</persName>, quella di Elvino da <persName>Giovanni Battista Rubini</persName>: i due cantanti concorsero al successo dell'<term subtype="music-term" ref="#opera">opera</term> documentato dalla stampa dell'epoca e confermato da <persName ref="#VB">Bellini</persName> in una lettera ad <persName>Alessandro Lamperi</persName> del 7 marzo 1831 (<quote rend="double angle quotation marks">Rubini e la Pasta sono due angioli, che hanno entusiasmato quasi alla follia l'intiero pubblico</quote>).</p>
+             			</note>
+					</bibl>
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

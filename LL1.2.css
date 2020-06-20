@@ -1,0 +1,156 @@
+.line {
+	margin-right: 2%;
+	font-family: monospace;
+}
+.right {
+	margin-left: 60%;
+}
+.super {
+	vertical-align: super;
+	font-size: 70%;
+}
+.sub {
+	vertical-align: sub;
+	font-size: 80%;
+}
+.dist {
+	font-family: Garamond, Times, serif;
+	cursor: help;
+}
+.refer {
+	text-align: left;
+}
+.container {
+	margin: 0 15% 2% 15%;
+	padding: 0 3% 1% 1%;
+	background-color: #fff1e1;
+	border:2px solid #662200;
+	border-radius: 7px;
+}
+.img {
+	position: relative;
+}
+.img>img {
+	width: 100%;
+	border: 1px solid black;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+body {
+	padding-bottom: 20%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.2vw;
+	background: repeating-linear-gradient(
+	90deg,
+	#ff8c1a,
+	#ff8c1a 15px,
+	#ff8000 15px,
+	#ff8000 30px
+	);
+}
+h1 {
+	font-family: Arial, Helvetica, Sans-serif;
+	margin-top: 0;
+	padding-top: 1%;
+}
+p {
+	text-align: justify;
+	line-height: 145%;
+}
+a:link {
+	font-weight: bold;
+	color: #b35900;
+}
+a:visited {
+	color: #662200;
+}
+a:hover {
+	color: #ffc34d;
+}
+a:active {
+	color: #800060;
+}
+button {
+	background-color: burlywood;
+	border: 3px solid #804f11;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	margin-bottom: 2%;
+	text-align: center;
+	font-size: 100%;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #e8ad5f;
+}
+#header img {
+	border: 1px solid black;
+}
+#header h3 {
+	color: rgb(65, 65, 65);
+}
+#header h4 {
+	color: rgb(100, 100, 100);
+}
+#blocco-visual {
+	margin: 0 2% 2% 2%;
+	padding-bottom: 1%;
+	background-color: #fff1e1;
+	border: 2px solid #662200;
+	border-radius: 7px;
+}
+#flexbox {
+	margin-top: 1%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+#flexbox h1 {
+	text-align: center;
+	margin-top: 0;
+}
+#arrowb {
+	align-self: center;
+	width: 5%;
+	height: 5%;
+	margin: 1%;
+	cursor: pointer;
+}
+#scansioni {
+	width: 40%;
+}
+#testo {
+	width: 40%;
+	padding: 0 1%;
+}
+#testo div>div {
+	display: inline;
+}
+#testo a {
+	text-decoration: none;
+}
+#testo br {
+	content: " ";
+	display: block;
+	margin-top: 0.7%;
+}
+#frasi {
+	width: 10%;
+}
+#arrowf {
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	align-self: center;
+	width: 5%;
+	height: 5%;
+	margin: 1%;
+	cursor: pointer;
+}
+#appendici {
+	clear: both;
+}
