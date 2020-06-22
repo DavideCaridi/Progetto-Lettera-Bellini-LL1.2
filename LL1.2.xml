@@ -78,7 +78,7 @@
 										<width>250</width>
 									</dimensions>
 								</extent>
-								<foliation>Il fronte è piegato in recto (a dx) e verso (a sx), con l'indirizzo nel verso. Ciascuno presenta due piegature simmetriche sui margini inferiore e superiore e due asimmetriche sui margini destro e sinistro, quest'ultimo piegato più stretto. In questo modo è divisa in nove sezioni disomogenee. Così il folio stesso funge anche da busta.</foliation>
+								<foliation>Il fronte è piegato in recto (a dx) e verso (a sx), con l'indirizzo nel verso. Ciascuno presenta due piegature simmetriche sui margini inferiore e superiore e due asimmetriche sui margini destro e sinistro, quest'ultimo piegato più stretto. In questo modo il folio è diviso in nove sezioni disomogenee e funge esso stesso da busta.</foliation>
 								<condition>
 									<p>Lettera in buone condizioni fisiche.</p>
 								</condition>
@@ -420,7 +420,7 @@
                         <term subtype="music-term" xml:lang="it" xml:id="opera" key="">Opera</term>
                     </label>
                     <item>
-                        <gloss xml:lang="it" target="#opera" source="#DellaSeta2010">(dal plurale del latino opus, nel senso di “manufatto”) Spettacolo teatrale in cui l'azione si manifesta principalmente attraverso la musica e l'espressione canora dei personaggi. L'opera è un genere complesso, fondato sulla cooperazione tra testo letterario (<term subtype="music-term" ref="#libretto">libretto</term>), allestimento scenico e musica, che ha comunque una funzione essenziale nel caratterizzare drammaticamente il lavoro (drammaturgia musicale). Le differenti possibilità di relazione che intercorrono tra musica, libretto e aspetti scenici rendono pressoché impossibile una definizione univoca di opera. A ciò si aggiungono le difficoltà causate dall'evoluzione compiuta in quattro secoli di storia, dalla presenza sotto una comune etichetta di generi tra loro estremamente lontani, dalle specificità nazionali (sotto il profilo sia drammaturgico sia organizzativo). L'opera nacque nell'Italia del primo Seicento (<placeName ref="#FI">Firenze</placeName>, <placeName>Mantova</placeName>, <placeName>Roma</placeName>) come spettacolo di corte con carattere prevalentemente celebrativo. Dalla fine degli anni trenta, con l'apertura a <placeName ref="#VE">Venezia</placeName> dei primi teatri pubblici a pagamento, si impose il modello dell'opera <term subtype="music-term" ref="#impresario">impresariale</term>, che produsse in Italia, con la rapida e diffusa circolazione di cantanti, compositori, scenografi, l'attività di una miriade di sale teatrali sparse sul territorio (dalle grandi capitali dotate di numerosi palcoscenici ai piccoli centri) e una produzione sterminata di nuovi lavori (nel XVIII secolo e nella prima metà del XIX secolo i compositori arrivavano a scrivere tre o quattro novità all'anno). Tale modello si diffuse ben presto in Europa, imponendo nel Settecento – nelle tre declinazioni dell'<term subtype="music-term" ref="#opera_seria">opera seria</term>, dell'<term subtype="music-term">opera buffa</term> e poi dell'<term subtype="music-term">opera semiseria</term> – il predominio italiano che perdura ancor oggi nei cartelloni dei teatri di tutto il mondo.<gap reason="editorial"/></gloss>
+                        <gloss xml:lang="it" target="#opera" source="#DellaSeta2010">(dal plurale del latino opus, nel senso di “manufatto”) Spettacolo teatrale in cui l'azione si manifesta principalmente attraverso la musica e l'espressione canora dei personaggi. L'opera è un genere complesso, fondato sulla cooperazione tra testo letterario (<term subtype="music-term" ref="#libretto">libretto</term>), allestimento scenico e musica, che ha comunque una funzione essenziale nel caratterizzare drammaticamente il lavoro (drammaturgia musicale). Le differenti possibilità di relazione che intercorrono tra musica, <term subtype="music-term" ref="#libretto">libretto</term> e aspetti scenici rendono pressoché impossibile una definizione univoca di opera. A ciò si aggiungono le difficoltà causate dall'evoluzione compiuta in quattro secoli di storia, dalla presenza sotto una comune etichetta di generi tra loro estremamente lontani, dalle specificità nazionali (sotto il profilo sia drammaturgico sia organizzativo). L'opera nacque nell'Italia del primo Seicento (<placeName ref="#FI">Firenze</placeName>, <placeName>Mantova</placeName>, <placeName>Roma</placeName>) come spettacolo di corte con carattere prevalentemente celebrativo. Dalla fine degli anni trenta, con l'apertura a <placeName ref="#VE">Venezia</placeName> dei primi teatri pubblici a pagamento, si impose il modello dell'opera <term subtype="music-term" ref="#impresario">impresariale</term>, che produsse in Italia, con la rapida e diffusa circolazione di cantanti, compositori, scenografi, l'attività di una miriade di sale teatrali sparse sul territorio (dalle grandi capitali dotate di numerosi palcoscenici ai piccoli centri) e una produzione sterminata di nuovi lavori (nel XVIII secolo e nella prima metà del XIX secolo i compositori arrivavano a scrivere tre o quattro novità all'anno). Tale modello si diffuse ben presto in Europa, imponendo nel Settecento – nelle tre declinazioni dell'<term subtype="music-term" ref="#opera_seria">opera seria</term>, dell'<term subtype="music-term">opera buffa</term> e poi dell'<term subtype="music-term">opera semiseria</term> – il predominio italiano che perdura ancor oggi nei cartelloni dei teatri di tutto il mondo.<gap reason="editorial"/></gloss>
                     </item>
 					<label>
                         <term subtype="music-term" xml:lang="it" xml:id="opera_seria" key="">Opera seria</term>
@@ -543,7 +543,7 @@
 							<lb xml:id="LL1.2_lb_1fv_03" n="3" facs="#LL1.2_line_1fv_03"/>
 							<addrLine><placeName ref="#CR">Cremone</placeName></addrLine>
 							<lb xml:id="LL1.2_lb_1fv_04" n="4" facs="#LL1.2_line_1fv_04"/>
-							<addrLine>pour <placeName ref="#Casal">Casalbuttano</placeName></addrLine>
+							<addrLine>pour <hi rend="underline"><placeName ref="#Casal">Casalbuttano</placeName></hi></addrLine>
 						</address>
 					</ab>
 				</div>
@@ -683,7 +683,7 @@
 							<lb xml:id="LL1.2_lb_1fv_03_body" n="3" facs="#LL1.2_line_1fv_03"/>
 							<addrLine><placeName ref="#CR">Cremone</placeName></addrLine>
 							<lb xml:id="LL1.2_lb_1fv_04_body" n="4" facs="#LL1.2_line_1fv_04"/>
-							<addrLine>pour <placeName ref="#Casal">Casalbuttano</placeName></addrLine>
+							<addrLine>pour <hi rend="underline"><placeName ref="#Casal">Casalbuttano</placeName></hi></addrLine>
 						</address>
 					</ab>
 				</div>

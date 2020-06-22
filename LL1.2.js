@@ -81,8 +81,10 @@ function mostraNota (nota) {
 //Al click sul link che rimanda a una nota, la funzione controlla se la nota è già visibile, altrimenti richiama la funzione per farla apparire.
 function linkaNota (nodoLink) {
     var nota = document.getElementById(nodoLink.getAttribute("href").replace("#", "")).firstChild;
-    if (nota.innerHTML.indexOf("\u25BE") != -1)
-        mostraNota(nota);
+    if (nota.innerHTML) {
+        if (nota.innerHTML.indexOf("\u25BE") != -1)
+            mostraNota(nota);
+    };
 };
 
 //All'uscita del mouse dall'area delle righe della lettera nella scansione o dei numeri di riga nella trascrizione, la funzione rimuove l'alone.

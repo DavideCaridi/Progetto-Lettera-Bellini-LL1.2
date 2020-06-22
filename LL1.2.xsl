@@ -731,7 +731,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 					<xsl:apply-templates/>
 				</a>
 			</xsl:when>
-			<xsl:when test="name(..)='p'">
+			<xsl:when test="name(..)='p' or name(..)='gloss'">
 				<b><xsl:apply-templates/></b>
 			</xsl:when>
 			<xsl:otherwise>
